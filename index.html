@@ -6,15 +6,15 @@
 </head>
 <body>
   <div class="conteneur">
-    <img src="images/image1.jpg" id="image1"  onmouseover="changerImage('image1')"/>
-    <img src="images/image2.jpg" id="image2"  onmouseover="changerImage('image2')"/>
-    <img src="images/image3.jpg" id="image3"  onmouseover="changerImage('image3')"/>
-    <img src="images/image4.jpg" id="image4"  onmouseover="changerImage('image4')"/>
-    <img src="images/image5.jpg" id="image5"  onmouseover="changerImage('image5')"/>
+    <img src="images/image1.jpg" id="image1"  onmouseover="souris('image1')"/>
+    <img src="images/image2.jpg" id="image2"  onmouseover="souris('image2')"/>
+    <img src="images/image3.jpg" id="image3"  onmouseover="souris('image3')"/>
+    <img src="images/image4.jpg" id="image4"  onmouseover="souris('image4')"/>
+    <img src="images/image5.jpg" id="image5"  onmouseover="souris('image5')"/>
   </div>
 </body>
 <script>
-function changerImage(n) {
+function souris(n) {
   var link = 'images/' + n + '_2.jpg';
   document.getElementById(n).src = link;
 }
